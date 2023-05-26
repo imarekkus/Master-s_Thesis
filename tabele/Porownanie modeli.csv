@@ -1,18 +1,18 @@
-﻿Model;Acc train;Acc test;Total params
-ANN 2 dense layers;5.74%;5.93%;99,755
-ANN 4 dense layers;5.76%;5.93%;114,315
-CNN 1 conv 4 dense;5.75%;5.93%;938,507
-CNN 1 conv 1 dense;99.14%;86.21%;1,239,339
-CNN 1 conv 1 max pool 1 dense;99.48%;86.44%;310,539
-CNN 1 conv 1 max pool 1 dropout 1 dense;97.32%;87.98%;310,539
-CNN 2 conv 1 max pool 1 dropout 1 dense;98.68%;90.64%;484,523
-CNN 2 conv 2 max pool 2 dropout 1 dense;97.35%;93.78%;118,507
-CNN 2 conv 2 max pool 3 dropout 2 dense;95.04%;95.39%;319,979
-CNN 2 conv 2 max pool 3 dropout 2 dense batchnorm;99.60%;97.10%;320,875
-CNN 3 conv 2 max pool 3 dropout 2 dense batchnorm;99.86%;96.43%;357,931
-CNN 4 conv 2 max pool 3 dropout 2 dense batchnorm;99.90%;98.07%;304,747
-CNN 4 conv 2 max pool 3 dropout 2 dense batchnorm changing parameters;99.89%;96.25%;546,731
-CNN 4 conv 2 max pool 4 dropout 2 dense batchnorm changing parameters v2;99.64%;97.83%;391,211
-CNN 4 conv 2 max pool 4 dropout 2 dense batchnorm changing parameters v3;99.82%;98.44%;697,003
-CNN 4 conv 2 max pool 4 dropout 2 dense batchnorm changing learning parameters v4;99.95%;98.27%;697,003
-CNN 4 conv 2 max pool 4 dropout 2 dense batchnorm changing learning parameters v4 data augmentation;99.59%;99.00%;697,003
+﻿Model;Acc train;Acc test;Total params;;;
+ANN 2 dense layers;0.057;0.059;99,755;;;
+ANN 4 dense layers;0.058;0.059;114,315;;;
+CNN 1 conv 4 dense;0.058;0.059;938,507;;;
+CNN 1 conv 1 dense;0.991;0.862;1,239,339;;;
+CNN 1 conv 1 max pool 1 dense;0.995;0.864;310,539;;;
+CNN 1 conv 1 max pool 1 dropout 1 dense;0.973;0.880;310,539;;;
+CNN 2 conv 1 max pool 1 dropout 1 dense;0.987;0.906;484,523;;;
+CNN 2 conv 2 max pool 2 dropout 1 dense;0.974;0.938;118,507;;;
+CNN 2 conv 2 max pool 3 dropout 2 dense;0.950;0.954;319,979;;;
+CNN 2 conv 2 max pool 3 dropout 2 dense batchnorm;0.996;0.971;320,875;;;
+CNN 3 conv 2 max pool 3 dropout 2 dense batchnorm;0.999;0.964;357,931;;;
+CNN 4 conv 2 max pool 3 dropout 2 dense batchnorm;0.999;0.981;304,747;;;
+CNN 4 conv 2 max pool 3 dropout 2 dense batchnorm changing parameters;0.999;0.963;546,731;;;
+CNN 4 conv 2 max pool 4 dropout 2 dense batchnorm changing parameters v2;0.996;0.978;391,211;;;
+CNN 4 conv 2 max pool 4 dropout 2 dense batchnorm changing parameters v3;0.998;0.984;697,003;;;
+CNN 4 conv 2 max pool 4 dropout 2 dense batchnorm changing learning parameters v4;1.000;0.983;697,003;;;
+CNN 4 conv 2 max pool 4 dropout 2 dense batchnorm changing learning parameters v4 data augmentation;0.996;0.990;697,003;;;
